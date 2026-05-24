@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChemPhys 3D</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="#home">ChemPhys 3D</a>
+      <nav class="nav-links">
+        <a href="#home">Accueil</a>
+        <a href="#library">Bibliothèque</a>
+        <a href="#assistant">Assistant IA</a>
+        <a href="#pricing">Premium</a>
+        <a href="#admin">Admin</a>
+      </nav>
+      <button class="btn btn-primary" id="btn-signin">Se connecter</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Plateforme immersive</span>
+          <h1>Visualisation scientifique en 3D pour la chimie et la physique.</h1>
+          <p>ChemPhys 3D transforme l'apprentissage en une expérience visuelle interactive. Explorez plus de 1 000 expériences, obtenez des justifications scientifiques détaillées et gérez l'accès via Google Sign-In et abonnement Premium.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="hero-try">Commencer</button>
+            <button class="btn btn-secondary" id="hero-learn">En savoir plus</button>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1 000+</strong> expériences</div>
+            <div><strong>10</strong> expériences gratuites</div>
+            <div><strong>IA intégrée</strong> analyses scientifiques</div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div id="hero-3d" aria-label="Visualisation 3D ChemPhys"></div>
+          <div class="visual-card">
+            <div class="badge">Nouveau</div>
+            <h2>Assistant d'analyse IA</h2>
+            <p>Recevez des explications détaillées pour chaque expérience et comprenez les phénomènes chimiques et physiques.</p>
+            <div class="stat-blocks">
+              <div><span>8K</span> utilisateurs</div>
+              <div><span>+100</span> simulations</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article>
+        <h2>Pourquoi ChemPhys 3D ?</h2>
+        <p>Notre plateforme propose un environnement interactif et pédagogique, conçu pour rendre les concepts complexes accessibles grâce à la 3D, à l'IA et à une expérience fluide.</p>
+      </article>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Expériences immersives</h3>
+          <p>Des réactions chimiques aux lois de la physique, notre bibliothèque couvre un large éventail de scénarios pédagogiques.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Assistant scientifique</h3>
+          <p>L'IA analyse chaque résultat et fournit une justification compréhensible pour l'étudiant.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Accès intelligent</h3>
+          <p>Connexion Google facile et système d'activation Premium sécurisé avec code lié à l'adresse Gmail.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="library-section" id="library">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Bibliothèque</p>
+          <h2>Une bibliothèque scientifique de plus de 1 000 expériences</h2>
+          <p>Découvrez des expériences sélectionnées, suivez vos essais gratuits et passez à Premium pour débloquer l'ensemble du catalogue.</p>
+        </div>
+        <div class="library-meta" id="library-meta">Chargement...</div>
+      </div>
+      <div class="library-grid" id="experience-grid"></div>
+    </section>
+
+    <section class="assistant-section" id="assistant">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Assistant IA</p>
+          <h2>Obtenez des justifications scientifiques instantanées</h2>
+          <p>Sélectionnez une expérience dans la bibliothèque pour générer une analyse précise et pédagogique.</p>
+        </div>
+      </div>
+      <div class="assistant-panel container">
+        <div class="assistant-welcome" id="assistant-welcome">
+          <h3>Activation de l'assistant</h3>
+          <p>Connectez-vous et sélectionnez une expérience pour recevoir l'explication scientifique détaillée du phénomène.</p>
+        </div>
+        <div class="assistant-output" id="assistant-output"></div>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Premium</p>
+          <h2>Abonnement Premium sécurisé</h2>
+          <p>Profitez de l'accès complet au catalogue avec un code d'activation unique lié à votre adresse Gmail.</p>
+        </div>
+      </div>
+      <div class="pricing-grid container">
+        <div class="pricing-card">
+          <h3>Essai gratuit</h3>
+          <p>10 expériences gratuites</p>
+          <ul>
+            <li>Découverte complète</li>
+            <li>Assistant IA limité</li>
+            <li>Connexion Google</li>
+          </ul>
+          <span class="price">Gratuit</span>
+        </div>
+        <div class="pricing-card featured">
+          <h3>Premium</h3>
+          <p>Accès illimité avec code unique</p>
+          <ul>
+            <li>+1 000 expériences</li>
+            <li>Assistant IA avancé</li>
+            <li>Administration et enrichissement</li>
+          </ul>
+          <span class="price">€14.99 / mois</span>
+        </div>
+      </div>
+      <div class="activation-panel container">
+        <h3>Code d'activation Premium</h3>
+        <p>Entrez un code correspondant à votre compte Gmail pour activer l'accès Premium.</p>
+        <div class="activation-form">
+          <input type="text" id="activation-code" placeholder="Ex : CP3D-ABCDE" />
+          <button class="btn btn-primary" id="btn-activate">Activer Premium</button>
+        </div>
+        <p class="activation-help">Le code est calculé à partir de votre adresse Gmail pour une sécurité renforcée.</p>
+      </div>
+    </section>
+
+    <section class="admin-section" id="admin">
+      <div class="container section-heading">
+        <div>
+          <p class="section-label">Administration</p>
+          <h2>Panneau d'administration</h2>
+          <p>Ajoutez de nouvelles expériences à la bibliothèque et enrichissez le catalogue scientifique.</p>
+        </div>
+      </div>
+      <div class="admin-panel container">
+        <div class="admin-login" id="admin-login">
+          <h3>Connexion Admin</h3>
+          <p>Utilisez le code secret pour ouvrir le panneau d'administration.</p>
+          <input type="password" id="admin-key" placeholder="Clé admin" />
+          <button class="btn btn-secondary" id="btn-admin-login">Entrer comme admin</button>
+          <p class="admin-help">Clé actuelle : <strong>chemphys-admin</strong></p>
+        </div>
+        <div class="admin-controls hidden" id="admin-controls">
+          <h3>Ajouter une expérience</h3>
+          <div class="admin-form-grid">
+            <input type="text" id="admin-title" placeholder="Titre de l'expérience" />
+            <input type="text" id="admin-category" placeholder="Catégorie" />
+            <input type="text" id="admin-objective" placeholder="Objectif pédagogique" />
+            <textarea id="admin-summary" placeholder="Résumé" rows="3"></textarea>
+            <button class="btn btn-primary" id="btn-add-experiment">Ajouter l'expérience</button>
+          </div>
+          <div class="admin-status" id="admin-status"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>ChemPhys 3D</strong>
+        <p>Plateforme pédagogique de visualisation 3D pour la chimie et la physique.</p>
+      </div>
+      <div>
+        <p>Contact: support@chemphys3d.example</p>
+        <p>© 2026 ChemPhys 3D</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal hidden" id="modal-login">
+    <div class="modal-content">
+      <button class="modal-close" id="close-login">×</button>
+      <h2>Connexion Google</h2>
+      <p>Entrez votre adresse Gmail pour démarrer. Un code d'activation Premium sera lié à cette adresse.</p>
+      <input type="email" id="login-email" placeholder="votre.email@gmail.com" />
+      <button class="btn btn-primary" id="btn-login-submit">Se connecter</button>
+      <p class="modal-note">Vous pouvez utiliser un compte gratuit pour commencer avec 10 expériences offertes.</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

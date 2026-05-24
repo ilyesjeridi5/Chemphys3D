@@ -1,0 +1,10 @@
+[
+  {
+    "name": "test.user",
+    "email": "test.user@gmail.com",
+    "freeRemaining": 10,
+    "premium": false,
+    "activatedCode": null,
+    "signedAt": "2026-05-24T20:02:47.794Z"
+  }
+]

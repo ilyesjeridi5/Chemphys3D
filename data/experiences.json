@@ -1,0 +1,56 @@
+[
+  {
+    "id": "exp-01",
+    "title": "Réaction acide-base en 3D",
+    "category": "Chimie organique",
+    "objective": "Observer le transfert de protons entre un acide et une base dans un milieu aqueux.",
+    "summary": "Visualisez en direct le pH, les ions et la dynamique moléculaire pendant une réaction acido-basique.",
+    "details": "Cette expérience simule un acide fort réagissant avec une base forte, montrant les variations de concentration des espèces et la neutralisation graduelle.",
+    "difficulty": "Intermédiaire"
+  },
+  {
+    "id": "exp-02",
+    "title": "Collision de particules et énergie cinétique",
+    "category": "Physique mécanique",
+    "objective": "Étudier les collisions élastiques et inélastiques entre deux corps en mouvement.",
+    "summary": "Analysez les impacts et le transfert d’énergie à l’échelle de particules en 3D.",
+    "details": "La simulation explique les lois de conservation de la quantité de mouvement et de l’énergie pour des corps de masses différentes.",
+    "difficulty": "Débutant"
+  },
+  {
+    "id": "exp-03",
+    "title": "Synthèse d’une molécule en chaîne",
+    "category": "Chimie organique",
+    "objective": "Suivre la création d’une molécule polymère étape par étape.",
+    "summary": "Découvrez comment les monomères se lient pour former des polymères et comment la structure influence les propriétés.",
+    "details": "Le modèle met en évidence les fonctions chimiques réactives et les liaisons covalentes formées pendant la polymérisation.",
+    "difficulty": "Avancé"
+  },
+  {
+    "id": "exp-04",
+    "title": "Oscillateur harmonique en 3D",
+    "category": "Physique oscillatoire",
+    "objective": "Explorer le mouvement harmonique simple et l’énergie potentielle d’un oscillateur.",
+    "summary": "Visualisez les oscillations, l’énergie cinétique et l’énergie potentielle dans un système spring-mass.",
+    "details": "Cette expérience montre le rôle de l’amortissement, de la fréquence naturelle et de l’amplitude dans un oscillateur harmonique.",
+    "difficulty": "Intermédiaire"
+  },
+  {
+    "id": "exp-05",
+    "title": "Diffusion thermique dans un solide",
+    "category": "Physique thermique",
+    "objective": "Comprendre la propagation de la chaleur dans un matériau solide.",
+    "summary": "Suivez visuellement la distribution de température et la conduction thermique en 3D.",
+    "details": "La simulation illustre la loi de Fourier et l’évolution de gradients thermiques dans un bloc chauffé.",
+    "difficulty": "Débutant"
+  },
+  {
+    "id": "exp-06",
+    "title": "Formation de liaison hydrogène",
+    "category": "Chimie physique",
+    "objective": "Observer l’apparition et l’effet des liaisons hydrogène sur la structure moléculaire.",
+    "summary": "Découvrez pourquoi l’eau a des propriétés uniques grâce aux liaisons hydrogène entre molécules.",
+    "details": "Cette simulation met en avant la polarité des molécules et les interactions dirigées entre atomes d’hydrogène et d’oxygène.",
+    "difficulty": "Intermédiaire"
+  }
+]
