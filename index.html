@@ -204,5 +204,24 @@
 
   <script src="https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.min.js"></script>
   <script src="app.js"></script>
+  </script>
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+
+// Configuration de ton projet réel ChemPhys 3D
+const firebaseConfig = {
+    apiKey: "AIzaSyBVdI7OjdSwiSN3C47sanSmj0BeX5acBKc",
+    authDomain: "chemphys3d.firebaseapp.com",
+    projectId: "chemphys3d",
+    storageBucket: "chemphys3d.firebasestorage.app",
+    messagingSenderId: "242382321033",
+    appId: "1:242382321033:web:a2b9401f354fe1c052dd58",
+    measurementId: "G-FDERFP24KP"
+};
+
+// Initialisation des services
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+  </script>
 </body>
 </html>
